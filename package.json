@@ -1,0 +1,19 @@
+{
+  "name": "connect-4-game",
+  "version": "1.0.0",
+  "description": "A web-based Connect 4 game where two players take turns on the same device.",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "typescript": "^5.5.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
